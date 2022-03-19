@@ -39,7 +39,7 @@ setup(
         'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3.8',
     ],
-    description="A Python package that automated the exploratory spatial data analysis (ESDA) process by summarising the results in an HTML report",
+    description="A Python package that automates the exploratory spatial data analysis (ESDA) process by summarizing the results in an HTML report",
     install_requires=install_requires,
     dependency_links=dependency_links,
     license="BSD license",

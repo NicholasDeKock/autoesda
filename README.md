@@ -7,7 +7,7 @@
 **A Python package that automated the exploratory spatial data analysis (ESDA) process by summarising the results in an HTML report**
 
 
--   Free software: BSD license
+-   Free software: BSD-3-Clause license
 -   Documentation: https://NicholasDeKock.github.io/autoesda
     
 
