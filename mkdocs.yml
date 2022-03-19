@@ -1,0 +1,52 @@
+site_name: autoesda
+
+site_url: https://NicholasDeKock.github.io/autoesda
+
+repo_url: https://github.com/NicholasDeKock/autoesda
+
+theme:
+    palette:
+        scheme: preference
+    name: material
+    icon:
+        repo: fontawesome/brands/github
+    features:
+        - navigation.instant
+        - search.highlight
+        # - navigation.expand
+        # - navigation.tabs
+    custom_dir: "docs/overrides"
+
+plugins:
+    - search
+    - mkdocstrings
+    - git-revision-date
+    - mkdocs-jupyter:
+          include_source: True
+        #   ignore_h1_titles: True
+        #   execute: True
+        #   execute_ignore: "*.ipynb"
+          
+markdown_extensions:
+    - attr_list
+    - pymdownx.superfences
+    - pymdownx.highlight:
+          linenums: true
+    - toc:
+          permalink: true
+
+# extra:
+#     analytics:
+#         provider: google
+#         property: UA-XXXXXXXXX-X
+
+nav:
+    - Home: index.md
+    - Installation: installation.md
+    - Usage: usage.md
+    - Contributing: contributing.md
+    - FAQ: faq.md
+    - Changelog: changelog.md
+    - Report Issues: https://github.com/NicholasDeKock/autoesda/issues
+    - API Reference:
+          - autoesda module: autoesda.md
