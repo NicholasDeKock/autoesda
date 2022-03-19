@@ -4,7 +4,7 @@
 [![image](https://img.shields.io/pypi/v/autoesda.svg)](https://pypi.python.org/pypi/autoesda)
 
 
-**A Python package that automated the exploratory spatial data analysis (ESDA) process by summarising the results in an HTML report**
+**A Python package that automates the exploratory spatial data analysis (ESDA) process by summarizing the results in an HTML report**
 
 
 -   Free software: BSD license
