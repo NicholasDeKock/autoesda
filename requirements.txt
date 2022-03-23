@@ -1,0 +1,7 @@
+geopandas
+pysal
+matplotlib
+libpysal
+esda
+splot
+seaborn
