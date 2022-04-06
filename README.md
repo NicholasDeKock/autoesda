@@ -7,6 +7,7 @@
 [![image](https://github.com/NicholasDeKock/autoesda/workflows/docs/badge.svg)](https://nicholasdekock.github.io/autoesda/)
 [![image](https://github.com/NicholasDeKock/autoesda/workflows/build/badge.svg)](https://github.com/giswqs/autoesda/actions?query=workflow%3Abuild)
 [![image](https://img.shields.io/pypi/l/autoesda?color=yellow&label=Licence&logo=BSD-3-Clause)](https://opensource.org/licenses/BSD-3-Clause)
+![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=NicholasDeKock.autoesda)
 
 **A Python package that automated the exploratory spatial data analysis (ESDA) process by summarising the results in an HTML report**
 
