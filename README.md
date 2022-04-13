@@ -12,16 +12,16 @@
 **A Python package that automates the exploratory spatial data analysis (ESDA) process by summarising the results into an HTML report**
 ___
 ## Table of Contents
-### 1. [Introduction](https://github.com/NicholasDeKock/autoesda#Introduction)
-### 2. [Key features](https://github.com/NicholasDeKock/autoesda#Keyfeatures)
-### 3. [Installation](https://github.com/NicholasDeKock/autoesda#Installation)
-### 4. [Dependancies](https://github.com/NicholasDeKock/autoesda#Dependancies)
-### 5. [Usage](https://github.com/NicholasDeKock/autoesda#Usage)
-### 6. [Examples](https://github.com/NicholasDeKock/autoesda#Examples)
-### 7. [Contributing](https://github.com/NicholasDeKock/autoesda#Contributing)
-### 8. [License](https://github.com/NicholasDeKock/autoesda#License)
-### 9. [References](https://github.com/NicholasDeKock/autoesda#References)
-### 10. [Credits](https://github.com/NicholasDeKock/autoesda#Credits)
+1. [Introduction](https://github.com/NicholasDeKock/autoesda#Introduction)
+2. [Key features](https://github.com/NicholasDeKock/autoesda#Keyfeatures)
+3. [Installation](https://github.com/NicholasDeKock/autoesda#Installation)
+4. [Dependancies](https://github.com/NicholasDeKock/autoesda#Dependancies)
+5. [Usage](https://github.com/NicholasDeKock/autoesda#Usage)
+6. [Examples](https://github.com/NicholasDeKock/autoesda#Examples)
+7. [Contributing](https://github.com/NicholasDeKock/autoesda#Contributing)
+8. [License](https://github.com/NicholasDeKock/autoesda#License)
+9. [References](https://github.com/NicholasDeKock/autoesda#References)
+10. [Credits](https://github.com/NicholasDeKock/autoesda#Credits)
 ___
 ### 1. Introduction
 Numerous areas exploratory spatial data analysis (ESDA) process is repetative, time consuming
@@ -40,6 +40,18 @@ ___
 - **Correlation** (correlation matrix/heatmap, pairwise plot)
 ___
 ### 3. Installation
+**autoesda** is available on [PyPI](https://pypi.org/project/autoesda/), to install **autoesda**, run this command in your terminal:
+```
+pip install autoesda
+```
+[geopandas](https://github.com/geopandas/geopandas) is a primary dependancy of **autoesda** and there are known challenges assosciated with using pip to install geopandas. The recommended strategy is thus, to use **autoesda** in a `conda environment`.
+
+For advanced users, you can follow [this](https://geopandas.org/en/stable/getting_started/install.html) documentation which will guide you through the geopandas installation by downloading the [unofficial binary files](https://www.lfd.uci.edu/~gohlke/pythonlibs/) of some of the [geopandas](https://github.com/geopandas/geopandas) dependancies.
+
+**autoesda** is also available on [conda-forge](https://anaconda.org/conda-forge/autoesda). If you have [Anaconda](https://www.anaconda.com/products/distribution#download-section) or [Miniconda](https://docs.conda.io/en/latest/miniconda.html) installed on your computer you can use this command in your Anaconda/Miniconda prompt:
+```
+conda install autoesda
+```
 ___
 ### 4. Dependancies
 - [geopandas](https://github.com/geopandas/geopandas)
@@ -57,37 +69,11 @@ ___
 ### 7. Contributing
 ___
 ### 8. License
+This software is available under the BSD-3-Clause license.
+
+For more information, see the [LICENSE](https://github.com/NicholasDeKock/autoesda/blob/main/LICENSE) file which contains details on the history of this software, terms & conditions for usage, and a disclaimer of all warranties.
 ___
 ### 9. References
 ___
 ### 10. Credits
-___
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
--   Free software: BSD-3-Clause license
--   Documentation: https://NicholasDeKock.github.io/autoesda
-    
-
-## Features
-
--   TODO
-
-## Credits
-
 This package was created with [Cookiecutter](https://github.com/cookiecutter/cookiecutter) and the [giswqs/pypackage](https://github.com/giswqs/pypackage) project template.
