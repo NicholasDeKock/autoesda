@@ -1,7 +1,7 @@
-geopandas
-pysal
-matplotlib
-libpysal
 esda
+geopandas==0.8.1
+libpysal==4.4.0
+matplotlib==3.4.2
+pysal==2.3.0
+seaborn==0.11.2
 splot
-seaborn
