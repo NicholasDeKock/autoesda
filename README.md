@@ -12,19 +12,19 @@
 **A Python package that automates the exploratory spatial data analysis (ESDA) process by summarising the results into an HTML report.**
 ___
 ## Table of Contents
-1. [Introduction](https://github.com/NicholasDeKock/autoesda#Introduction)
-2. [Key features](https://github.com/NicholasDeKock/autoesda#Keyfeatures)
-3. [Installation](https://github.com/NicholasDeKock/autoesda#Installation)
-4. [Dependancies](https://github.com/NicholasDeKock/autoesda#Dependancies)
-5. [Usage](https://github.com/NicholasDeKock/autoesda#Usage)
-6. [Examples](https://github.com/NicholasDeKock/autoesda#Examples)
-7. [Contributing](https://github.com/NicholasDeKock/autoesda#Contributing)
-8. [License](https://github.com/NicholasDeKock/autoesda#License)
-9. [References](https://github.com/NicholasDeKock/autoesda#References)
-10. [Credits](https://github.com/NicholasDeKock/autoesda#Credits)
+1. [**Introduction**](https://github.com/NicholasDeKock/autoesda#Introduction)
+2. [**Key features**](https://github.com/NicholasDeKock/autoesda#Keyfeatures)
+3. [**Installation**](https://github.com/NicholasDeKock/autoesda#Installation)
+4. [**Dependancies**](https://github.com/NicholasDeKock/autoesda#Dependancies)
+5. [**Usage**](https://github.com/NicholasDeKock/autoesda#Usage)
+6. [**Examples**](https://github.com/NicholasDeKock/autoesda#Examples)
+7. [**Contributing**](https://github.com/NicholasDeKock/autoesda#Contributing)
+8. [**License**](https://github.com/NicholasDeKock/autoesda#License)
+9. [**References**](https://github.com/NicholasDeKock/autoesda#References)
+10. [**Credits**](https://github.com/NicholasDeKock/autoesda#Credits)
 ___
 ### 1. Introduction
-Exploratory spatial data analysis (ESDA) is a term used to describe a various functions used to gain a surface-level understanding of a spatial dataset. Currently the ESDA process is repetative as each of these functions need to be calculated individually. This makes it quite a time consumining process and also includes a large margain for human-induced errors. Additionally, results are not often easily viewed side-by-side for easy comparison and sharing with people who may not have the technical skills to do so.
+Exploratory spatial data analysis (ESDA) is a term used to describe a various functions used to gain a surface-level understanding of a spatial dataset. Currently the ESDA process is repetitive as each of these functions need to be calculated individually. This makes it quite a time consuming process and also includes a large margin for human-induced errors. Additionally, results are not often easily viewed side-by-side for easy comparison and sharing with people who may not have the technical skills to do so.
 
 **autoesda** is the solution to this by allowing the user to execute one line of code to generate an information-rich HTML report that can easily be shared with others.
 ___
