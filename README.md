@@ -106,7 +106,9 @@ This software is available under the BSD-3-Clause license.
 For more information, see the [LICENSE](https://github.com/NicholasDeKock/autoesda/blob/main/LICENSE) file which contains details on the history of this software, terms & conditions for usage, and a disclaimer of all warranties.
 ___
 ### 9. References
-Be on the lookout for a journal article titled *Towards an open source python library for automated exploratory spatial data analysis (ESDA)* which is to be published in the ISPRS XXIV Archives. Please reference this article whenever you refer to the autoesda library.
+When citing this library, please reference the following:
+
+de Kock, N., Rautenbach, V., and Fabris-Rotelli, I.: TOWARDS AN OPEN SOURCE PYTHON LIBRARY FOR AUTOMATED EXPLORATORY SPATIAL DATA ANALYSIS, Int. Arch. Photogramm. Remote Sens. Spatial Inf. Sci., XLIII-B4-2022, 91–98, https://doi.org/10.5194/isprs-archives-XLIII-B4-2022-91-2022, 2022.
 ___
 ### 10. Credits
 This package was created with [Cookiecutter](https://github.com/cookiecutter/cookiecutter) and the [giswqs/pypackage](https://github.com/giswqs/pypackage) project template.
