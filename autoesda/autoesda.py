@@ -9,18 +9,19 @@ import correlation_page
 
 
 def generate_report(gdf):
-
-
     summary_page_string = summary_page.summary_html(gdf)
-    variable_information_string = variable_information_page.variable_information_html(gdf)
+    variable_information_string = variable_information_page.variable_information_html(
+        gdf
+    )
     variable_information_tab_string = variable_information_string[0]
     variable_information_div_string = variable_information_string[1]
     correlation_page_string = correlation_page.correlation_html(gdf)
 
     ##########----------HTML REPORT SETUP----------##########
 
-    #Create String for HTML report
-    html_string = str('''
+    # Create String for HTML report
+    html_string = str(
+        """
     <!DOCTYPE html>
     <html>
     <head>
@@ -87,14 +88,21 @@ def generate_report(gdf):
     <p>Click on the buttons inside the tabbed menu:</p>
 
     <div class="tab">
-        <button class="tablinks" onclick="openTab(event, 'Summary')">Summary</button>'''
-        + variable_information_tab_string + '''
+        <button class="tablinks" onclick="openTab(event, 'Summary')">Summary</button>"""
+        + variable_information_tab_string
+        + """
         <button class="tablinks" onclick="openTab(event, 'Correlation')">Correlation</button>
     </div>
 
-    ''' + summary_page_string + '''
-    ''' + variable_information_div_string + '''
-    ''' + correlation_page_string + '''
+    """
+        + summary_page_string
+        + """
+    """
+        + variable_information_div_string
+        + """
+    """
+        + correlation_page_string
+        + """
     <script>
     function openTab(evt, tabName) {
     var i, tabcontent, tablinks;
@@ -114,8 +122,9 @@ def generate_report(gdf):
     </body>
     </html> 
 
-    ''')
-    file = open('autoESDAreport.html', 'w')
+    """
+    )
+    file = open("autoESDAreport.html", "w")
     file.write(html_string)
     file.close()
-    print('Success! Report has been saved to your working folder directory.')
+    print("Success! Report has been saved to your working folder directory.")
