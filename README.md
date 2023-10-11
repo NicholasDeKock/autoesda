@@ -10,7 +10,7 @@
 ![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=NicholasDeKock.autoesda)
 
 **A Python package that automates the exploratory spatial data analysis (ESDA) process by summarising the results into an HTML report.**
-___
+
 ## Table of Contents
 1. **Introduction**
 2. **Key features**
@@ -22,12 +22,12 @@ ___
 8. **License**
 9. **References**
 10. **Credits**
-___
+
 ### 1. Introduction
 Exploratory spatial data analysis (ESDA) is a term used to describe a various functions used to gain a surface-level understanding of a spatial dataset. Currently the ESDA process is repetitive as each of these functions need to be calculated individually. This makes it quite a time consuming process and also includes a large margin for human-induced errors. Additionally, results are not often easily viewed side-by-side for easy comparison and sharing with people who may not have the technical skills to do so.
 
 **autoesda** is the solution to this by allowing the user to execute one line of code to generate an information-rich HTML report that can easily be shared with others.
-___
+
 ### 2. Key features
 - **HTML output report**
 - **Extent map**
@@ -40,7 +40,7 @@ ___
 - **Local Indicator of Spatial Autocorrelation** (local scatterplot, LISA cluster map)
 - **Choropleth maps** (quantiles, equal intervals, natural breaks, and percentiles classification schemes)
 - **Correlation** (correlation matrix/heatmap, pairwise plot)
-___
+
 ### 3. Installation
 **autoesda** is available on [PyPI](https://pypi.org/project/autoesda/), to install **autoesda**, run this command in your terminal:
 ```
@@ -54,7 +54,7 @@ For advanced users, you can follow [this](https://geopandas.org/en/stable/gettin
 ```
 conda install autoesda
 ```
-___
+
 ### 4. Dependancies
 - [geopandas](https://github.com/geopandas/geopandas)
 - [pysal](https://github.com/pysal/pysal)
@@ -63,7 +63,7 @@ ___
 - [esda](https://github.com/pysal/esda)
 - [splot](https://github.com/pysal/splot)
 - [seaborn](https://github.com/mwaskom/seaborn)
-___
+
 ### 5. Usage
 To start off with, you need to ensure that you have imported both *geopandas* and *autoesda*.
 ```
@@ -82,11 +82,16 @@ autoesda.generate_report(gdf)
 ```
 
 The report will be saved to your working file directory.
-___
+
 ### 6. Example Reports
-[Old COJ Demographic Data](https://autoesda.github.io/autoESDA-static/)
-[AirbBnB Chicago 2015](https://nicholasdekock.github.io/autoesda/example_reports/v1-airbnb.html)
-___
+[Old COJ Demographic Data](https://autoesda.github.io/autoESDA-static/)<br>
+[AirbBnB Chicago 2015](https://nicholasdekock.github.io/autoesda/example_reports/v1-airbnb.html)<br>
+[Grid 100](https://nicholasdekock.github.io/autoesda/example_reports/v2-grid100.html)<br>
+[South African 2011 Census](https://nicholasdekock.github.io/autoesda/example_reports/v3-southafrica.html)<br>
+[Natural Earth Country Boundaries](https://nicholasdekock.github.io/autoesda/example_reports/v4-naturalearth.html)<br>
+[Malaria in Colombia](https://nicholasdekock.github.io/autoesda/example_reports/v5-colombia.html)<br>
+[USA Election Results](https://nicholasdekock.github.io/autoesda/example_reports/v6-usa.html)<br>
+
 ### 7. Contributing
 Click [here](https://github.com/NicholasDeKock/autoesda/issues/new/choose) to report bugs
 
@@ -100,16 +105,16 @@ In order to make a contribution you will need to:
 2. Clone your fork locally.
 3. Commit your changes to your branch on GitHub
 4. Once you are satsfied that your work is suitable, submit a pull request through the GitHub website.
-___
+
 ### 8. License
 This software is available under the BSD-3-Clause license.
 
 For more information, see the [LICENSE](https://github.com/NicholasDeKock/autoesda/blob/main/LICENSE) file which contains details on the history of this software, terms & conditions for usage, and a disclaimer of all warranties.
-___
+
 ### 9. References
 When citing this library, please reference the following:
 
 de Kock, N., Rautenbach, V., and Fabris-Rotelli, I.: TOWARDS AN OPEN SOURCE PYTHON LIBRARY FOR AUTOMATED EXPLORATORY SPATIAL DATA ANALYSIS, Int. Arch. Photogramm. Remote Sens. Spatial Inf. Sci., XLIII-B4-2022, 91–98, https://doi.org/10.5194/isprs-archives-XLIII-B4-2022-91-2022, 2022.
-___
+
 ### 10. Credits
 This package was created with [Cookiecutter](https://github.com/cookiecutter/cookiecutter) and the [giswqs/pypackage](https://github.com/giswqs/pypackage) project template.
