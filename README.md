@@ -85,13 +85,14 @@ The report will be saved to your working file directory.
 
 ### 6. Example Reports
 | Vector Reports | Raster Reports |
+| ---------- | ---------- |
 | [Old COJ Demographic Data](https://autoesda.github.io/autoESDA-static/)| Global Terrestrial Precipitation <br>  [Band 1](Link) \| [Band 2](Link) \| [Band 3](Link) \| [Stacked](Link) |
-| [AirbBnB Chicago 2015](https://nicholasdekock.github.io/autoesda/example_reports/v1-airbnb.html) |
-| [Grid 100](https://nicholasdekock.github.io/autoesda/example_reports/v2-grid100.html) |
-| [South African 2011 Census](https://nicholasdekock.github.io/autoesda/example_reports/v3-southafrica.html) |
-| [Natural Earth Country Boundaries](https://nicholasdekock.github.io/autoesda/example_reports/v4-naturalearth.html) |
-| [Malaria in Colombia](https://nicholasdekock.github.io/autoesda/example_reports/v5-colombia.html) |
-| [USA Election Results](https://nicholasdekock.github.io/autoesda/example_reports/v6-usa.html) |
+| [AirbBnB Chicago 2015](https://nicholasdekock.github.io/autoesda/example_reports/v1-airbnb.html) | |
+| [Grid 100](https://nicholasdekock.github.io/autoesda/example_reports/v2-grid100.html) | |
+| [South African 2011 Census](https://nicholasdekock.github.io/autoesda/example_reports/v3-southafrica.html) | |
+| [Natural Earth Country Boundaries](https://nicholasdekock.github.io/autoesda/example_reports/v4-naturalearth.html) | |
+| [Malaria in Colombia](https://nicholasdekock.github.io/autoesda/example_reports/v5-colombia.html) | |
+| [USA Election Results](https://nicholasdekock.github.io/autoesda/example_reports/v6-usa.html) | |
 
 ### 7. Contributing
 Click [here](https://github.com/NicholasDeKock/autoesda/issues/new/choose) to report bugs
