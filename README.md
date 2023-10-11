@@ -83,8 +83,9 @@ autoesda.generate_report(gdf)
 
 The report will be saved to your working file directory.
 ___
-### 6. Examples
-View the [example report](https://autoesda.github.io/autoESDA-static/)
+### 6. Example Reports
+[Old COJ Demographic Data](https://autoesda.github.io/autoESDA-static/)
+[AirbBnB Chicago 2015](https://nicholasdekock.github.io/autoesda/example_reports/v1-airbnb.html)
 ___
 ### 7. Contributing
 Click [here](https://github.com/NicholasDeKock/autoesda/issues/new/choose) to report bugs
