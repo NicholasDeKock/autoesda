@@ -86,9 +86,9 @@ The report will be saved to your working file directory.
 ### 6. Example Reports
 | Vector Reports | Raster Reports |
 | ---------- | ---------- |
-| [Old COJ Demographic Data](https://autoesda.github.io/autoESDA-static/)| Global Terrestrial Precipitation <br>  [Band 1](Link) \| [Band 2](Link) \| [Band 3](Link) \| [Stacked](Link) |
-| [AirbBnB Chicago 2015](https://nicholasdekock.github.io/autoesda/example_reports/v1-airbnb.html) | |
-| [Grid 100](https://nicholasdekock.github.io/autoesda/example_reports/v2-grid100.html) | |
+| [Old COJ Demographic Data](https://autoesda.github.io/autoESDA-static/)| Global Terrestrial Precipitation <br>  [Band 1](https://nicholasdekock.github.io/autoesda/example_reports/rain_1_original.html) \| [Band 2](https://nicholasdekock.github.io/autoesda/example_reports/rain_1_low_range.html) \| [Band 3](https://nicholasdekock.github.io/autoesda/example_reports/rain_1_med_range.html) \| [Band 4](https://nicholasdekock.github.io/autoesda/example_reports/rain_1_high_range.html) \| [Stacked](https://nicholasdekock.github.io/autoesda/example_reports/rain_1_stacked.html) |
+| [AirbBnB Chicago 2015](https://nicholasdekock.github.io/autoesda/example_reports/v1-airbnb.html) | EU NOx Concentration <br>  [Band 1](https://nicholasdekock.github.io/autoesda/example_reports/eu_air_1_original.html) \| [Band 2](https://nicholasdekock.github.io/autoesda/example_reports/eu_air_1_low_range.html) \| [Band 3](https://nicholasdekock.github.io/autoesda/example_reports/eu_air_1_med_range.html) \| [Band 4](https://nicholasdekock.github.io/autoesda/example_reports/eu_air_1_high_range.html) \| [Stacked](https://nicholasdekock.github.io/autoesda/example_reports/eu_air_1_stacked.html) |
+| [Grid 100](https://nicholasdekock.github.io/autoesda/example_reports/v2-grid100.html) | South African Population <br>  [Band 1](https://nicholasdekock.github.io/autoesda/example_reports/za_pop_1_original.html) \| [Band 2](https://nicholasdekock.github.io/autoesda/example_reports/za_pop_1_low_range.html) \| [Band 3](https://nicholasdekock.github.io/autoesda/example_reports/za_pop_1_med_range.html) \| [Band 4](https://nicholasdekock.github.io/autoesda/example_reports/za_pop_1_high_range.html) | 
 | [South African 2011 Census](https://nicholasdekock.github.io/autoesda/example_reports/v3-southafrica.html) | |
 | [Natural Earth Country Boundaries](https://nicholasdekock.github.io/autoesda/example_reports/v4-naturalearth.html) | |
 | [Malaria in Colombia](https://nicholasdekock.github.io/autoesda/example_reports/v5-colombia.html) | |
